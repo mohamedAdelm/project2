@@ -1,0 +1,303 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.img-icon {
+  width: 50px;
+}
+::selection {
+  color: white;
+  background-color: brown;
+}
+
+.mod {
+  background-color: black;
+}
+
+.dn{
+  display: none;
+}
+
+header button{
+  border: none;
+  background-color: transparent;
+}
+.bg-sec1{
+
+  background-color: lightgray;
+}
+.header-img svg {
+  visibility: hidden;
+}
+.header-img:hover svg {
+  visibility: visible;
+}
+
+span{
+
+  color: rgb(189, 6, 6);
+}
+
+.icon-youtyop {
+    width: 75px;
+    height: 75px;
+    background-image:linear-gradient(to right ,red 0% 50% , transparent 50% 100%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+.icon-youtyop::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.icon-youtyop svg{
+    z-index:9;
+
+}
+
+.youlink a{
+    color: #000;
+}
+.youlink     a:hover {
+    color: red;
+}
+
+
+
+
+
+
+.layer-icon-sotial svg {
+  color: #000;
+  opacity: 0.4;
+}
+
+.layer-icon-sotial:hover svg {
+  opacity: 1;
+}
+.layer-icon-sotial svg:hover {
+  color: #fff;
+}
+
+.layer-icon-sotial {
+  position: absolute;
+  top: 15px;
+  /*left: 100px;
+    */
+  right: 15px;
+  background-color: rgba(248, 246, 249, 0.4);
+  padding: 15px;
+  visibility: hidden;
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -ms-transition: all 0.7s;
+  -o-transition: all 0.7s;
+}
+
+.img-chefs:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.img-chefs:hover .layer-icon-sotial {
+  visibility: visible;
+}
+
+.it-img-gallery {
+  overflow: hidden;
+  margin-top: 15px;
+}
+.it-img-gallery:hover {
+  transform: scaleX(1.1);
+  -webkit-transform: scaleX(1.1);
+  -moz-transform: scaleX(1.1);
+  -ms-transform: scaleX(1.1);
+  -o-transform: scaleX(1.1);
+}
+.layer-img-gallery {
+  position: absolute;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+.it-img-gallery:hover .layer-img-gallery {
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.contact-icon svg{
+  color: #fff;
+}
+.for-btn button {
+   border:none;
+   background-color: red;
+   color: #fff;
+   padding: 12px;
+}
+.contact-icon{
+    width: 75px;
+    height:75px;
+    
+    background-color: rgb(145, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container-contact{
+
+  width: 85%;
+  margin: auto;
+}
+
+.my-padding{
+
+  padding: 0px;
+}
+.mod .bg-sec1{
+  background-color: #000;
+}
+.mod .bg-sec1 a{
+  color: #fff;
+}
+.mod .bg-sec1 svg{
+  color: #000;
+}
+
+.mod  h2,h3{
+  color: #fff;
+}
+.mod ::selection{
+
+background-color: rgb(203, 94, 16);
+color: #000;
+
+}
+.mod p{
+  color: white;
+}
+
+.mod .contact-icon {
+
+  background-color: goldenrod;
+}
+.mod .for-btn button {
+
+  background-color: goldenrod;
+}
+
+
+.mod .Get-in-Touch svg {
+  color: goldenrod;
+}
+
+.mod .footer .for-btn{
+
+  background-color: goldenrod;
+  padding: 7px 12px;
+  border: none;
+}
+.mod  span{
+
+  color: goldenrod;
+  
+}
+header nav{
+
+  background-color: #fff;
+}
+header nav a{
+
+  color: #000;
+
+
+  
+}
+.mod header nav{
+
+  background-color: #ffaacc;
+  
+}
+.mod header nav a{
+
+  color: #000;
+  
+}
+
+
+
+
+footer {
+  background-image:linear-gradient(#000, rgba(125, 28, 28, 0.6)),
+    url(../img/textured-metal-background.jpg);
+  color: #fff;
+  box-shadow: 0px -1px 5px #0007;
+  background-size: contain;
+
+  padding: 50px 0px;
+  margin-top: 50px 
+}
+.footer a{
+
+color: #fff;
+text-decoration: none;
+
+}
+.footer .for-btn{
+
+  background-color: rgb(144, 9, 9);
+  padding: 7px 12px;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
